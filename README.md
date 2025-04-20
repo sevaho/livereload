@@ -1,6 +1,7 @@
 # Livereload
 
-> Livereload your golang web app to increase the development experience.
+> Livereload your golang echo labstack web app to increase the development experience. This library only works with [echo](https://echo.labstack.com/) framework.
+
 
 ## Install
 
