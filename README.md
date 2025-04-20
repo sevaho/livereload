@@ -12,7 +12,7 @@ go get github.com/sevaho/livereload
 ## How to use
 
 ```golang
-import github.com/labstack/echo/v4
+import "github.com/labstack/echo/v4"
 
 server := echo.New()
 
