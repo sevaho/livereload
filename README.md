@@ -13,11 +13,14 @@ go get github.com/sevaho/livereload
 ## How to use
 
 ```golang
-import "github.com/labstack/echo/v4"
+import (
+	"github.com/labstack/echo/v4"
+	"github.com/rs/zerolog/log"
+)
 
-server := echo.New()
+e := echo.New()
 
-server.use(livereload.Livereload(server, zerolog.Logger, ...directories_to_watch))
+e.Use(livereload.LiveReload(e, log.Logger, "directory A", "directory B"))
 ```
 
 And add the following to every HTML file or to a `layout` html file:
