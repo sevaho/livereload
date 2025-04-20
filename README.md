@@ -28,4 +28,4 @@ And add the following to every HTML file or to a `layout` html file:
 
 ## Check out the example!
 
-![demo.mp4](.github/blobs/demo.mp4)
+![demo.gif](.github/blobs/demo.gif)
