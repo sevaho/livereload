@@ -26,3 +26,6 @@ And add the following to every HTML file or to a `layout` html file:
 <script src="/livereload.js"></script>
 ```
 
+## Check out the example!
+
+![demo.mp4](.github/blobs/demo.mp4)
